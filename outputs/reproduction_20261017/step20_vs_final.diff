@@ -1,0 +1,31 @@
+--- /root/autodl-tmp/skillOPT/baseline/SkillOpt-main/SkillOpt-main/outputs/skillopt_searchqa_Qwen2.5-32B-4bit-opt_Qwen2.5-7B-target_20261017_010359/skills/skill_v0020.md	2026-10-17 02:38:22.789485404 +0800
++++ /root/autodl-tmp/skillOPT/baseline/SkillOpt-main/SkillOpt-main/outputs/skillopt_searchqa_Qwen2.5-32B-4bit-opt_Qwen2.5-7B-target_20261017_010359/skills/skill_v0040.md	2026-10-17 04:17:55.735606613 +0800
+@@ -75,4 +75,28 @@
+ **Rule:** Always verify that your answer perfectly matches the context and question format, paying specific attention to requests for shortest names or terms without additional qualifiers.
+ 
+ <!-- SLOW_UPDATE_START -->
++<!-- SLOW_UPDATE_START -->
++
++When you encounter questions asking for specific entities including names or terms, ensure your answers:
++- Match the exact format specified by the question and context.
++- Avoid adding unnecessary qualifiers or modifiers.
++- Exclusively provide the shortest and most precise name or term requested without any additional layers of information.
++
++**Correct for Common Errors**: If the expected answer is a common phrase like 'Bagpipes', do not provide a more detailed response such as 'Great Highland bagpipe'. Similarly, ensure responses do not include unnecessary articles ('the') unless explicitly part of the expected answer (e.g., 'the Adirondacks').
++
++**Precision Measures**: 
++1. **Exact Match Check**: Ensure your answer exactly matches the required entity (name, location, etc.) without supplementary information.
++2. **Format Accuracy**: Verify your response aligns perfectly with the requested format and context-specific terminology.
++3. **Shortest Form**: Use the shortest and most common form of the name or term, excluding any superfluous details or extended descriptions.
++
++Avoid additions or alterations beyond what is strictly required by the question and verify your response against implicit and explicit context cues.
++
++**Example Fixes**:
++1. For task 699d0ee09cef409cb640078bb31baa00, respond with 'Brunei' instead of 'Hassanal Bolkiah'.
++2. For task 3909c367f524402d8ba5ec2b520ba206, respond with 'Angela Bassett' instead of listing movie titles.
++3. For task 085a07c84b4c4e8ebb5c02c635665606, respond with 'the manatee' instead of 'dugong'.
++
++Each fix should prioritize simplicity and concision while ensuring alignment with both question and context guidelines.
++
++<!-- SLOW_UPDATE_END -->
+ <!-- SLOW_UPDATE_END -->

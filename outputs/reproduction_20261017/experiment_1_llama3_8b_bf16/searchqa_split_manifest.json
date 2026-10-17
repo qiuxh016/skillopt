@@ -1,0 +1,15 @@
+{
+  "source_manifest_dir": "D:\\25-26大创总\\agent方向\\baseline\\SkillOpt-main\\SkillOpt-main\\data\\searchqa_id_split",
+  "source_dataset": "local: D:/25-26大创总/agent方向/baseline/lucadiliello/searchqa/data/*.parquet",
+  "counts": {
+    "train": 400,
+    "val": 200,
+    "test": 1400
+  },
+  "item_fields": [
+    "id",
+    "question",
+    "context",
+    "answers"
+  ]
+}

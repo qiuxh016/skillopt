@@ -1,0 +1,6 @@
+{
+  "reasoning": "The optimizer failed to address the common regression issue where the extraction was overly terse and neglected specific formatting requests such as plural, proper names, or exact terminology matching. Persistent failures suggest difficulty in accurately capturing the exact entity name expected by the gold standards, leading to segmentation or naming errors. Regressions highlight the importance of precision and adherence to formatting expectations without introducing unnecessary or superfluous corrections.",
+  "meta_skill_content": "Future optimization should prioritize guiding agents to strictly adhere to the exact format and context required for accurate entity extraction and termination avoidance. Focus on avoiding overly terse responses and extraneous add-ons that lead to mismatches with the expected answer formats. Highlight the need to maintain precision in naming entities to prevent regressions.",
+  "time_s": 10.6,
+  "action": "write_meta_skill"
+}

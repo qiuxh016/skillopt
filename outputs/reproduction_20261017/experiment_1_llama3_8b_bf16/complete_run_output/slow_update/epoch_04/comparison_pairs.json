@@ -1,0 +1,342 @@
+[
+  {
+    "id": "270f65b074984463b3fe55433c93ff22",
+    "task": "He resigned from the Supreme Court in 1916 to run for president & was reappointed in 1930 as chief justice",
+    "category": "improved",
+    "prev": {
+      "hard": 0,
+      "soft": 0.0,
+      "predicted_answer": "True",
+      "fail_reason": "EM=0: predicted 'True' but expected ['Charles Evans Hughes']"
+    },
+    "curr": {
+      "hard": 1,
+      "soft": 1.0,
+      "predicted_answer": "Charles Evans Hughes",
+      "fail_reason": ""
+    }
+  },
+  {
+    "id": "2bbdbb989efc4ced951e49007006cc17",
+    "task": "Tick-Licker was the favorite rifle of this 18th centiry Kentucky frontiersman",
+    "category": "stable_success",
+    "prev": {
+      "hard": 1,
+      "soft": 1.0,
+      "predicted_answer": "Daniel Boone",
+      "fail_reason": ""
+    },
+    "curr": {
+      "hard": 1,
+      "soft": 1.0,
+      "predicted_answer": "Daniel Boone",
+      "fail_reason": ""
+    }
+  },
+  {
+    "id": "d93529278d1d4fcdb3dff5d9bdefc977",
+    "task": "The Harpers Ferry National Historical Park includes a museum named for this Civil War figure",
+    "category": "stable_success",
+    "prev": {
+      "hard": 1,
+      "soft": 1.0,
+      "predicted_answer": "John Brown",
+      "fail_reason": ""
+    },
+    "curr": {
+      "hard": 1,
+      "soft": 1.0,
+      "predicted_answer": "John Brown",
+      "fail_reason": ""
+    }
+  },
+  {
+    "id": "dd1d96c533664c4e98649de8bd67dada",
+    "task": "In 1931 chemists discovered a growth hormone in this gland",
+    "category": "stable_success",
+    "prev": {
+      "hard": 1,
+      "soft": 1.0,
+      "predicted_answer": "pituitary gland",
+      "fail_reason": ""
+    },
+    "curr": {
+      "hard": 1,
+      "soft": 1.0,
+      "predicted_answer": "pituitary gland",
+      "fail_reason": ""
+    }
+  },
+  {
+    "id": "96105c04691c409a92a47eeff53b30c6",
+    "task": "This goggle-eyed cartoon family from \"The Tracey Ullman Show\" now has its own series on the FOX network",
+    "category": "stable_success",
+    "prev": {
+      "hard": 1,
+      "soft": 1.0,
+      "predicted_answer": "The Simpsons",
+      "fail_reason": ""
+    },
+    "curr": {
+      "hard": 1,
+      "soft": 1.0,
+      "predicted_answer": "The Simpsons",
+      "fail_reason": ""
+    }
+  },
+  {
+    "id": "82b3d01ea72847959730b3ef349b2d76",
+    "task": "He recorded many of his famous songs like \"I Walk The Line\" within 2 years of his debut on Sun Records",
+    "category": "persistent_fail",
+    "prev": {
+      "hard": 0,
+      "soft": 0.0,
+      "predicted_answer": "No",
+      "fail_reason": "EM=0: predicted 'No' but expected ['Johnny Cash']"
+    },
+    "curr": {
+      "hard": 0,
+      "soft": 0.0,
+      "predicted_answer": "No",
+      "fail_reason": "EM=0: predicted 'No' but expected ['Johnny Cash']"
+    }
+  },
+  {
+    "id": "699d0ee09cef409cb640078bb31baa00",
+    "task": "Sultan Haji Hassanal Bolkiah",
+    "category": "persistent_fail",
+    "prev": {
+      "hard": 0,
+      "soft": 0.0,
+      "predicted_answer": "Hassanal Bolkiah Mu'izzaddin Waddaulah",
+      "fail_reason": "EM=0: predicted 'Hassanal Bolkiah Mu'izzaddin Waddaulah' but expected ['Brunei']"
+    },
+    "curr": {
+      "hard": 0,
+      "soft": 0.0,
+      "predicted_answer": "Hassanal Bolkiah Mu'izzaddin Waddaulah ibni Al-Marhum Sultan Haji Omar AliSaifuddin II",
+      "fail_reason": "EM=0: predicted 'Hassanal Bolkiah Mu'izzaddin Waddaulah ibni Al-Marhum Sultan Haji Omar AliSaifuddin II' but expected ['Brunei']"
+    }
+  },
+  {
+    "id": "bb9262401a7d4fddb761e356ac024c4c",
+    "task": "As president of the Senate, on Jan. 4, 1989 he announced to Congress that George Bush won the election",
+    "category": "persistent_fail",
+    "prev": {
+      "hard": 0,
+      "soft": 0.6666666666666666,
+      "predicted_answer": "George H. W. Bush",
+      "fail_reason": "EM=0: predicted 'George H. W. Bush' but expected ['George Bush']"
+    },
+    "curr": {
+      "hard": 0,
+      "soft": 0.8,
+      "predicted_answer": "George HW Bush",
+      "fail_reason": "EM=0: predicted 'George HW Bush' but expected ['George Bush']"
+    }
+  },
+  {
+    "id": "6b497ac583564d389f5e5f3f565e0030",
+    "task": "\"Make Believe\",\"Cotton Blossom\",\"Can't Help Lovin' Dat Man\"",
+    "category": "persistent_fail",
+    "prev": {
+      "hard": 0,
+      "soft": 0.0,
+      "predicted_answer": "Show Boat song titles",
+      "fail_reason": "EM=0: predicted 'Show Boat song titles' but expected ['Showboat']"
+    },
+    "curr": {
+      "hard": 0,
+      "soft": 0.2857142857142857,
+      "predicted_answer": "are associated with the showboat \"Cotton Blossom\"",
+      "fail_reason": "EM=0: predicted 'are associated with the showboat \"Cotton Blossom\"' but expected ['Showboat']"
+    }
+  },
+  {
+    "id": "7f568680a90f435ab953e342a7fd57a2",
+    "task": "The Highland version of this instrument has a blowpipe, a chanter & 3 drones",
+    "category": "persistent_fail",
+    "prev": {
+      "hard": 0,
+      "soft": 0.0,
+      "predicted_answer": "Bagpipe",
+      "fail_reason": "EM=0: predicted 'Bagpipe' but expected ['Bagpipes']"
+    },
+    "curr": {
+      "hard": 0,
+      "soft": 0.0,
+      "predicted_answer": "Bagpipe",
+      "fail_reason": "EM=0: predicted 'Bagpipe' but expected ['Bagpipes']"
+    }
+  },
+  {
+    "id": "3909c367f524402d8ba5ec2b520ba206",
+    "task": "She played Tina Turner on the big screen & Rosa Parks on TV",
+    "category": "persistent_fail",
+    "prev": {
+      "hard": 0,
+      "soft": 0.0,
+      "predicted_answer": "Yes",
+      "fail_reason": "EM=0: predicted 'Yes' but expected ['Angela Bassett']"
+    },
+    "curr": {
+      "hard": 0,
+      "soft": 0.0,
+      "predicted_answer": "Correct",
+      "fail_reason": "EM=0: predicted 'Correct' but expected ['Angela Bassett']"
+    }
+  },
+  {
+    "id": "6d89b2af311949b3ab5b6c93f4c85e7e",
+    "task": "This city's official seal depicts a phoenix & a motto in Spanish:  \"Gold in Peace -- Iron in War\"",
+    "category": "stable_success",
+    "prev": {
+      "hard": 1,
+      "soft": 1.0,
+      "predicted_answer": "San Francisco",
+      "fail_reason": ""
+    },
+    "curr": {
+      "hard": 1,
+      "soft": 1.0,
+      "predicted_answer": "San Francisco",
+      "fail_reason": ""
+    }
+  },
+  {
+    "id": "085a07c84b4c4e8ebb5c02c635665606",
+    "task": "Steller's Sea Cow was a relative of this rare aquatic mammal found in Florida",
+    "category": "persistent_fail",
+    "prev": {
+      "hard": 0,
+      "soft": 0.5,
+      "predicted_answer": "West Indian manatee",
+      "fail_reason": "EM=0: predicted 'West Indian manatee' but expected ['the manatee']"
+    },
+    "curr": {
+      "hard": 0,
+      "soft": 0.5,
+      "predicted_answer": "West Indian manatee",
+      "fail_reason": "EM=0: predicted 'West Indian manatee' but expected ['the manatee']"
+    }
+  },
+  {
+    "id": "691178453c884f98a9205ef3d143bc42",
+    "task": "The National Air & Space Museum in Washington is the largest museum of this institution",
+    "category": "stable_success",
+    "prev": {
+      "hard": 1,
+      "soft": 1.0,
+      "predicted_answer": "Smithsonian Institution",
+      "fail_reason": ""
+    },
+    "curr": {
+      "hard": 1,
+      "soft": 1.0,
+      "predicted_answer": "Smithsonian Institution",
+      "fail_reason": ""
+    }
+  },
+  {
+    "id": "445d4959a0a94d06adfb86d80c5a9dbd",
+    "task": "Lake Placid is located 1,860 feet above sea level in these mountains",
+    "category": "persistent_fail",
+    "prev": {
+      "hard": 0,
+      "soft": 0.0,
+      "predicted_answer": "Adirondack Mountains",
+      "fail_reason": "EM=0: predicted 'Adirondack Mountains' but expected ['the Adirondacks']"
+    },
+    "curr": {
+      "hard": 0,
+      "soft": 0.0,
+      "predicted_answer": "Adirondack Mountains",
+      "fail_reason": "EM=0: predicted 'Adirondack Mountains' but expected ['the Adirondacks']"
+    }
+  },
+  {
+    "id": "0ecb623e905e4ef1b6f2b082e3eaf28d",
+    "task": "It's said this term for a cramp of an arm or leg muscle originated in baseball in the 1880s",
+    "category": "persistent_fail",
+    "prev": {
+      "hard": 0,
+      "soft": 0.0,
+      "predicted_answer": "True",
+      "fail_reason": "EM=0: predicted 'True' but expected ['Charley horse']"
+    },
+    "curr": {
+      "hard": 0,
+      "soft": 0.0,
+      "predicted_answer": "True",
+      "fail_reason": "EM=0: predicted 'True' but expected ['Charley horse']"
+    }
+  },
+  {
+    "id": "a7f79b085bd04f98847589443fd0f61d",
+    "task": "Nancy Lopez & Beth Daniel are in this organization's Hall of Fame, founded in 1967",
+    "category": "persistent_fail",
+    "prev": {
+      "hard": 0,
+      "soft": 0.0,
+      "predicted_answer": "World Golf Hall of Fame",
+      "fail_reason": "EM=0: predicted 'World Golf Hall of Fame' but expected ['LPGA']"
+    },
+    "curr": {
+      "hard": 0,
+      "soft": 0.4,
+      "predicted_answer": "LPGA Hall of Fame",
+      "fail_reason": "EM=0: predicted 'LPGA Hall of Fame' but expected ['LPGA']"
+    }
+  },
+  {
+    "id": "58f65c725a344349b9412bddb5ba7c4f",
+    "task": "With more than 50,000 employees in Washington, this aerospace company is one of the state's largest employers",
+    "category": "stable_success",
+    "prev": {
+      "hard": 1,
+      "soft": 1.0,
+      "predicted_answer": "Boeing",
+      "fail_reason": ""
+    },
+    "curr": {
+      "hard": 1,
+      "soft": 1.0,
+      "predicted_answer": "Boeing",
+      "fail_reason": ""
+    }
+  },
+  {
+    "id": "dfb0deb117f642bd98d744fdd5aa6867",
+    "task": "This cabinet member: \"To those Iraqis... mistreated by members of the U.S. Armed Forces, I offer my deepest apology\"",
+    "category": "stable_success",
+    "prev": {
+      "hard": 1,
+      "soft": 1.0,
+      "predicted_answer": "Rumsfeld",
+      "fail_reason": ""
+    },
+    "curr": {
+      "hard": 1,
+      "soft": 1.0,
+      "predicted_answer": "Rumsfeld",
+      "fail_reason": ""
+    }
+  },
+  {
+    "id": "7e17030f4e8f487e922841322951cc8c",
+    "task": "(VIDEO DAILY DOUBLE):Artist whose most famous painting, seen here (\"The Swing\"), is an example of the Rococo style:",
+    "category": "persistent_fail",
+    "prev": {
+      "hard": 0,
+      "soft": 0.6666666666666666,
+      "predicted_answer": "Jean-Honore Fragonard",
+      "fail_reason": "EM=0: predicted 'Jean-Honore Fragonard' but expected ['Fragonard']"
+    },
+    "curr": {
+      "hard": 0,
+      "soft": 0.5,
+      "predicted_answer": "Jean Honoré Fragonard",
+      "fail_reason": "EM=0: predicted 'Jean Honoré Fragonard' but expected ['Fragonard']"
+    }
+  }
+]

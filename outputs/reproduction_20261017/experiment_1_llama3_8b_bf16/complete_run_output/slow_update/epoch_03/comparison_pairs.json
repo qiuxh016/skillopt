@@ -1,0 +1,342 @@
+[
+  {
+    "id": "11db4151a9f34f9fbe86f521fed062c3",
+    "task": "During his 20-year career with the Brewers, he had 3,142 hits & a major league record 123 sacrifice flies",
+    "category": "stable_success",
+    "prev": {
+      "hard": 1,
+      "soft": 1.0,
+      "predicted_answer": "Robin Yount",
+      "fail_reason": ""
+    },
+    "curr": {
+      "hard": 1,
+      "soft": 1.0,
+      "predicted_answer": "Robin Yount",
+      "fail_reason": ""
+    }
+  },
+  {
+    "id": "1a02c8a18c464f8eaa996aeeb6781f35",
+    "task": "President Tran Duc Luong",
+    "category": "persistent_fail",
+    "prev": {
+      "hard": 0,
+      "soft": 0.0,
+      "predicted_answer": "Tran Duc Luong",
+      "fail_reason": "EM=0: predicted 'Tran Duc Luong' but expected ['Vietnam']"
+    },
+    "curr": {
+      "hard": 0,
+      "soft": 0.2222222222222222,
+      "predicted_answer": "was president of Vietnam from 1997 to 2006",
+      "fail_reason": "EM=0: predicted 'was president of Vietnam from 1997 to 2006' but expected ['Vietnam']"
+    }
+  },
+  {
+    "id": "55f92cd27974459aa893c131216a075c",
+    "task": "On May 22, 1964 this president told America, \"The great society rests on abundance and liberty for all\"",
+    "category": "persistent_fail",
+    "prev": {
+      "hard": 0,
+      "soft": 0.8,
+      "predicted_answer": "Lyndon B. Johnson",
+      "fail_reason": "EM=0: predicted 'Lyndon B. Johnson' but expected ['Lyndon Johnson']"
+    },
+    "curr": {
+      "hard": 0,
+      "soft": 0.8,
+      "predicted_answer": "Lyndon B. Johnson",
+      "fail_reason": "EM=0: predicted 'Lyndon B. Johnson' but expected ['Lyndon Johnson']"
+    }
+  },
+  {
+    "id": "bc63eb4bd9234e4583a6c12cb3851cef",
+    "task": "In 1917 Scottish immigrant Bertie Charles Forbes began publishing a journal & gave it this name",
+    "category": "persistent_fail",
+    "prev": {
+      "hard": 0,
+      "soft": 0.6666666666666666,
+      "predicted_answer": "Forbes",
+      "fail_reason": "EM=0: predicted 'Forbes' but expected ['Forbes magazine']"
+    },
+    "curr": {
+      "hard": 0,
+      "soft": 0.6666666666666666,
+      "predicted_answer": "Forbes",
+      "fail_reason": "EM=0: predicted 'Forbes' but expected ['Forbes magazine']"
+    }
+  },
+  {
+    "id": "0de4e6953a4e46e5ac23de6d0741bc73",
+    "task": "Thor Heyerdahl spent 101 days sailing this raft from Peru to Polynesia",
+    "category": "stable_success",
+    "prev": {
+      "hard": 1,
+      "soft": 1.0,
+      "predicted_answer": "Kon-Tiki",
+      "fail_reason": ""
+    },
+    "curr": {
+      "hard": 1,
+      "soft": 1.0,
+      "predicted_answer": "Kon-Tiki",
+      "fail_reason": ""
+    }
+  },
+  {
+    "id": "28ce80cc4e9440b8bae1ec4a2c94c4c4",
+    "task": "On May 5, 1961 the Freedom 7 capsule splashed down in the Atlantic with this man inside",
+    "category": "regressed",
+    "prev": {
+      "hard": 1,
+      "soft": 1.0,
+      "predicted_answer": "Alan Shepard",
+      "fail_reason": ""
+    },
+    "curr": {
+      "hard": 0,
+      "soft": 0.6666666666666666,
+      "predicted_answer": "Alan B. Shepard, Jr.",
+      "fail_reason": "EM=0: predicted 'Alan B. Shepard, Jr.' but expected ['Alan Shepard']"
+    }
+  },
+  {
+    "id": "1ec91e606a454ca8a248c9f55eed17cf",
+    "task": "It's the crime for which Hester Prynne is condemned to wear \"The Scarlet Letter\"",
+    "category": "stable_success",
+    "prev": {
+      "hard": 1,
+      "soft": 1.0,
+      "predicted_answer": "adultery",
+      "fail_reason": ""
+    },
+    "curr": {
+      "hard": 1,
+      "soft": 1.0,
+      "predicted_answer": "adultery",
+      "fail_reason": ""
+    }
+  },
+  {
+    "id": "3fdfccd5f0a24e57ba350bcf434fa291",
+    "task": "1853 purchase that brought the contiguous U.S. about up to its present area",
+    "category": "stable_success",
+    "prev": {
+      "hard": 1,
+      "soft": 1.0,
+      "predicted_answer": "Gadsden Purchase",
+      "fail_reason": ""
+    },
+    "curr": {
+      "hard": 1,
+      "soft": 1.0,
+      "predicted_answer": "Gadsden Purchase",
+      "fail_reason": ""
+    }
+  },
+  {
+    "id": "424eb2b3c6f64445a43efa57a60f5477",
+    "task": "Neatness does count -- his discovery of antiseptics reduced deaths from surgical infections",
+    "category": "stable_success",
+    "prev": {
+      "hard": 1,
+      "soft": 1.0,
+      "predicted_answer": "Joseph Lister",
+      "fail_reason": ""
+    },
+    "curr": {
+      "hard": 1,
+      "soft": 1.0,
+      "predicted_answer": "Joseph Lister",
+      "fail_reason": ""
+    }
+  },
+  {
+    "id": "929d024018584364a928895a128d9c74",
+    "task": "The 1945 conference in this Crimean city determined that a defeated Germany would be divided into 4 zones",
+    "category": "stable_success",
+    "prev": {
+      "hard": 1,
+      "soft": 1.0,
+      "predicted_answer": "Yalta",
+      "fail_reason": ""
+    },
+    "curr": {
+      "hard": 1,
+      "soft": 1.0,
+      "predicted_answer": "Yalta",
+      "fail_reason": ""
+    }
+  },
+  {
+    "id": "dfb0deb117f642bd98d744fdd5aa6867",
+    "task": "This cabinet member: \"To those Iraqis... mistreated by members of the U.S. Armed Forces, I offer my deepest apology\"",
+    "category": "stable_success",
+    "prev": {
+      "hard": 1,
+      "soft": 1.0,
+      "predicted_answer": "Rumsfeld",
+      "fail_reason": ""
+    },
+    "curr": {
+      "hard": 1,
+      "soft": 1.0,
+      "predicted_answer": "Rumsfeld",
+      "fail_reason": ""
+    }
+  },
+  {
+    "id": "7f5514c879eb4fcea5b2c660b4ab0496",
+    "task": "This late California governor & U.S. Chief Justice was honored on a postage stamp in 1992",
+    "category": "stable_success",
+    "prev": {
+      "hard": 1,
+      "soft": 1.0,
+      "predicted_answer": "Earl Warren",
+      "fail_reason": ""
+    },
+    "curr": {
+      "hard": 1,
+      "soft": 1.0,
+      "predicted_answer": "Earl Warren",
+      "fail_reason": ""
+    }
+  },
+  {
+    "id": "fd9daac9e3cc4f819c48b05fb6bd843f",
+    "task": "Before it's galvanized, iron is cleaned with this very caustic acid",
+    "category": "persistent_fail",
+    "prev": {
+      "hard": 0,
+      "soft": 0.0,
+      "predicted_answer": "hydroxide",
+      "fail_reason": "EM=0: predicted 'hydroxide' but expected ['hydrochloric acid']"
+    },
+    "curr": {
+      "hard": 0,
+      "soft": 0.0,
+      "predicted_answer": "naoh",
+      "fail_reason": "EM=0: predicted 'naoh' but expected ['hydrochloric acid']"
+    }
+  },
+  {
+    "id": "7dd729e3b10e4154a490894f99f6664c",
+    "task": "Burt Lancaster & Deborah Kerr kiss in the pounding surf....need we say more?",
+    "category": "stable_success",
+    "prev": {
+      "hard": 1,
+      "soft": 1.0,
+      "predicted_answer": "From Here To Eternity",
+      "fail_reason": ""
+    },
+    "curr": {
+      "hard": 1,
+      "soft": 1.0,
+      "predicted_answer": "From Here To Eternity",
+      "fail_reason": ""
+    }
+  },
+  {
+    "id": "db15ab3b562142f1aa6e7cbb0a561e83",
+    "task": "Nautical term for the canvas-covered blades of a windmill",
+    "category": "improved",
+    "prev": {
+      "hard": 0,
+      "soft": 0.0,
+      "predicted_answer": "sail",
+      "fail_reason": "EM=0: predicted 'sail' but expected ['Sails']"
+    },
+    "curr": {
+      "hard": 1,
+      "soft": 1.0,
+      "predicted_answer": "sails",
+      "fail_reason": ""
+    }
+  },
+  {
+    "id": "3ca738c4497e48e0a746bcdb81beec97",
+    "task": "Of the U.S. coins currently being minted, it's the smallest in size",
+    "category": "persistent_fail",
+    "prev": {
+      "hard": 0,
+      "soft": 0.0,
+      "predicted_answer": "cent",
+      "fail_reason": "EM=0: predicted 'cent' but expected ['a dime']"
+    },
+    "curr": {
+      "hard": 0,
+      "soft": 0.0,
+      "predicted_answer": "cent",
+      "fail_reason": "EM=0: predicted 'cent' but expected ['a dime']"
+    }
+  },
+  {
+    "id": "49675b915f874f3e8be70b85778d4763",
+    "task": "\"A Tale of Two Cities\" opens as Dr. Alexander Manette is released after 18 years in this prison",
+    "category": "stable_success",
+    "prev": {
+      "hard": 1,
+      "soft": 1.0,
+      "predicted_answer": "Bastille",
+      "fail_reason": ""
+    },
+    "curr": {
+      "hard": 1,
+      "soft": 1.0,
+      "predicted_answer": "Bastille",
+      "fail_reason": ""
+    }
+  },
+  {
+    "id": "ec3252ab5a9e4e37967740b172bbec8d",
+    "task": "David Arquette's role as a guard in Creed's \"What If\" spoofs his Deputy Dewey role in this film series",
+    "category": "stable_success",
+    "prev": {
+      "hard": 1,
+      "soft": 1.0,
+      "predicted_answer": "Scream",
+      "fail_reason": ""
+    },
+    "curr": {
+      "hard": 1,
+      "soft": 1.0,
+      "predicted_answer": "Scream",
+      "fail_reason": ""
+    }
+  },
+  {
+    "id": "ffbdd2a32ba64dd580da86cd611bc5cc",
+    "task": "She made national news when she was convicted March 20, 1976 for a San Francisco bank robbery",
+    "category": "persistent_fail",
+    "prev": {
+      "hard": 0,
+      "soft": 0.0,
+      "predicted_answer": "bank robbery",
+      "fail_reason": "EM=0: predicted 'bank robbery' but expected ['Patricia Hearst']"
+    },
+    "curr": {
+      "hard": 0,
+      "soft": 0.0,
+      "predicted_answer": "Bank robbery",
+      "fail_reason": "EM=0: predicted 'Bank robbery' but expected ['Patricia Hearst']"
+    }
+  },
+  {
+    "id": "770470c452174a719260377ebb9ab2f4",
+    "task": "In 1905 she & her husband bought a farm at Hoosick Falls, N.Y., where she stayed until her death in 1961",
+    "category": "persistent_fail",
+    "prev": {
+      "hard": 0,
+      "soft": 0.0,
+      "predicted_answer": "No",
+      "fail_reason": "EM=0: predicted 'No' but expected ['Grandma Moses']"
+    },
+    "curr": {
+      "hard": 0,
+      "soft": 0.0,
+      "predicted_answer": "No",
+      "fail_reason": "EM=0: predicted 'No' but expected ['Grandma Moses']"
+    }
+  }
+]

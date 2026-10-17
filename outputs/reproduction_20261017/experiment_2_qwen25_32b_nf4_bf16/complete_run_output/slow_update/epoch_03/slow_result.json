@@ -1,0 +1,11 @@
+{
+  "reasoning": "There is no previous slow update guidance since this is the first epoch. Based on the longitudinal comparison, the skill suffers from several persistent failures and one regression. The persistent failures indicate issues with exact matching and maintaining correct formatting or terminology, such as in the case of 'President Tran Duc Luong,' 'Lyndon B. Johnson,' and 'Forbes magazine.' Additionally, the regression shows a need to preserve the plural form 'sails' instead of singular 'sail.' These trends suggest gaps in precision and adherence to strict format and correctness.",
+  "slow_update_content": "<!-- SLOW_UPDATE_START -->\n\nWhen you encounter questions asking for specific entities including names or terms, ensure your answers:\n- Match the exact format specified by the question and context.\n- Avoid adding unnecessary qualifiers or modifiers.\n- Ensure the plurality of nouns is correct (singular vs. plural).\n- Exclusively provide the entity name or term requested without adding additional layers of information.\n\n**Rule for Plural Accuracy**: If the context or question specifies a plural term, always use the plural form in your response.\n\nVerify against each specific requirement:\n1. **Precision**: Ensure the answer directly addresses the question without adding extraneous information or qualifying terms.\n2. **Format and Terminology**: Adhere strictly to the format and context-specific terminology.\n3. **Plurality**: Pay close attention to the required plurality of nouns in your answers.\n\nAvoid alterations or additional information beyond what is asked for and verify the correctness of your answer format against both the context and the anticipated answer.\n\n<!-- SLOW_UPDATE_END -->",
+  "time_s": 33.4,
+  "prev_hard": 0.7,
+  "curr_hard": 0.65,
+  "candidate_hash": "c47771f9f7e1b99c",
+  "update_origin": "slow_update_momentum",
+  "update_target": "Address longitudinal regressions and persistent failures observed across adjacent epochs.",
+  "action": "force_accept"
+}

@@ -1,0 +1,342 @@
+[
+  {
+    "id": "c69f7fb4be4c4a89bc9644dd8d01ecc2",
+    "task": "NHL teams that have moved to new, luxury box-filled arenas include the Boston Bruins & this city's Sabres",
+    "category": "stable_success",
+    "prev": {
+      "hard": 1,
+      "soft": 1.0,
+      "predicted_answer": "Buffalo",
+      "fail_reason": ""
+    },
+    "curr": {
+      "hard": 1,
+      "soft": 1.0,
+      "predicted_answer": "Buffalo",
+      "fail_reason": ""
+    }
+  },
+  {
+    "id": "bcaec7a9860240a187552622a73d38fc",
+    "task": "Asia's population giant, finally admitted to U.N. in 1971",
+    "category": "persistent_fail",
+    "prev": {
+      "hard": 0,
+      "soft": 0.0,
+      "predicted_answer": "Taiwan",
+      "fail_reason": "EM=0: predicted 'Taiwan' but expected [\"(The People\\\\'s Republic of) China\"]"
+    },
+    "curr": {
+      "hard": 0,
+      "soft": 0.0,
+      "predicted_answer": "Taiwan",
+      "fail_reason": "EM=0: predicted 'Taiwan' but expected [\"(The People\\\\'s Republic of) China\"]"
+    }
+  },
+  {
+    "id": "61edfa3561d44e728f57ab67783cb099",
+    "task": "(Hi, I'm Pam Tillis)  My No. 1 country hit \"Mi Vida Loca\" translates to this in English",
+    "category": "stable_success",
+    "prev": {
+      "hard": 1,
+      "soft": 1.0,
+      "predicted_answer": "My Crazy Life",
+      "fail_reason": ""
+    },
+    "curr": {
+      "hard": 1,
+      "soft": 1.0,
+      "predicted_answer": "My Crazy Life",
+      "fail_reason": ""
+    }
+  },
+  {
+    "id": "bcf886e6d73b4fa7be27b32421c5bc49",
+    "task": "In 1579 this English circumnavigator put the Golden Hind in for repairs at an inlet north of San Francisco",
+    "category": "persistent_fail",
+    "prev": {
+      "hard": 0,
+      "soft": 0.8,
+      "predicted_answer": "Francis Drake",
+      "fail_reason": "EM=0: predicted 'Francis Drake' but expected ['Sir Francis Drake']"
+    },
+    "curr": {
+      "hard": 0,
+      "soft": 0.8,
+      "predicted_answer": "Francis Drake",
+      "fail_reason": "EM=0: predicted 'Francis Drake' but expected ['Sir Francis Drake']"
+    }
+  },
+  {
+    "id": "a33ecc8eb40543ac8555dc12059f511e",
+    "task": "In titles it preceded Eddie Money's \"Nights\" & Richard Marx's \"Summer Nights\"",
+    "category": "stable_success",
+    "prev": {
+      "hard": 1,
+      "soft": 1.0,
+      "predicted_answer": "Endless",
+      "fail_reason": ""
+    },
+    "curr": {
+      "hard": 1,
+      "soft": 1.0,
+      "predicted_answer": "Endless",
+      "fail_reason": ""
+    }
+  },
+  {
+    "id": "10031674a6f14bc2b6ffc77f4a8da3a6",
+    "task": "This 1994 miniseries based on a Stephen King book depicts the aftermath of a devastating plague",
+    "category": "stable_success",
+    "prev": {
+      "hard": 1,
+      "soft": 1.0,
+      "predicted_answer": "The Stand",
+      "fail_reason": ""
+    },
+    "curr": {
+      "hard": 1,
+      "soft": 1.0,
+      "predicted_answer": "The Stand",
+      "fail_reason": ""
+    }
+  },
+  {
+    "id": "d5319e0a56c946889232069668b770af",
+    "task": "Christmas festivities in this Utah city begin with the lighting of Temple Square in November",
+    "category": "improved",
+    "prev": {
+      "hard": 0,
+      "soft": 0.0,
+      "predicted_answer": "Temple Square",
+      "fail_reason": "EM=0: predicted 'Temple Square' but expected ['Salt Lake City']"
+    },
+    "curr": {
+      "hard": 1,
+      "soft": 1.0,
+      "predicted_answer": "Salt Lake City",
+      "fail_reason": ""
+    }
+  },
+  {
+    "id": "6b03e6e855304974afebc7624b2b7d9b",
+    "task": "A knighted Englishman:The Golden Hind",
+    "category": "regressed",
+    "prev": {
+      "hard": 1,
+      "soft": 1.0,
+      "predicted_answer": "Sir Francis Drake",
+      "fail_reason": ""
+    },
+    "curr": {
+      "hard": 0,
+      "soft": 0.8,
+      "predicted_answer": "Francis Drake",
+      "fail_reason": "EM=0: predicted 'Francis Drake' but expected ['(Sir Francis) Drake']"
+    }
+  },
+  {
+    "id": "1e687cbe048042f390f9448065703dff",
+    "task": "After he gave up writing novels, he published his \"Wessex Poems\" in 1898",
+    "category": "improved",
+    "prev": {
+      "hard": 0,
+      "soft": 0.0,
+      "predicted_answer": "1898",
+      "fail_reason": "EM=0: predicted '1898' but expected ['Thomas Hardy']"
+    },
+    "curr": {
+      "hard": 1,
+      "soft": 1.0,
+      "predicted_answer": "Thomas Hardy",
+      "fail_reason": ""
+    }
+  },
+  {
+    "id": "1dd7a02b15e0470d91a8fedfca5357ca",
+    "task": "Head of the former head of the country, seen here:(U.S. president, '81-'89)",
+    "category": "stable_success",
+    "prev": {
+      "hard": 1,
+      "soft": 1.0,
+      "predicted_answer": "Ronald Reagan",
+      "fail_reason": ""
+    },
+    "curr": {
+      "hard": 1,
+      "soft": 1.0,
+      "predicted_answer": "Ronald Reagan",
+      "fail_reason": ""
+    }
+  },
+  {
+    "id": "be33c663172e45daac47333cebdfcb40",
+    "task": "Title held in different countries at different times by Balbinus, Bao Dai & Bidatsu",
+    "category": "stable_success",
+    "prev": {
+      "hard": 1,
+      "soft": 1.0,
+      "predicted_answer": "Emperor",
+      "fail_reason": ""
+    },
+    "curr": {
+      "hard": 1,
+      "soft": 1.0,
+      "predicted_answer": "Emperor",
+      "fail_reason": ""
+    }
+  },
+  {
+    "id": "24ca993f0de94e219bf272245186f68e",
+    "task": "In celebration of Barbie's 40th anniversary, this \"costumer to the stars\" designed the doll seen here(\"Papillon Barbie\")",
+    "category": "stable_success",
+    "prev": {
+      "hard": 1,
+      "soft": 1.0,
+      "predicted_answer": "Bob Mackie",
+      "fail_reason": ""
+    },
+    "curr": {
+      "hard": 1,
+      "soft": 1.0,
+      "predicted_answer": "Bob Mackie",
+      "fail_reason": ""
+    }
+  },
+  {
+    "id": "3eff11c208b24b9183b109a73fb0fa64",
+    "task": "It's the cry of a sheep or goat",
+    "category": "stable_success",
+    "prev": {
+      "hard": 1,
+      "soft": 1.0,
+      "predicted_answer": "bleat",
+      "fail_reason": ""
+    },
+    "curr": {
+      "hard": 1,
+      "soft": 1.0,
+      "predicted_answer": "bleat",
+      "fail_reason": ""
+    }
+  },
+  {
+    "id": "7f35282de6124a96a21aba7d5f18de50",
+    "task": "Its area equals pi r (squared)",
+    "category": "persistent_fail",
+    "prev": {
+      "hard": 0,
+      "soft": 0.0,
+      "predicted_answer": "\\pi r^2",
+      "fail_reason": "EM=0: predicted '\\pi r^2' but expected ['Circle']"
+    },
+    "curr": {
+      "hard": 0,
+      "soft": 0.0,
+      "predicted_answer": "Area = pi * r * r",
+      "fail_reason": "EM=0: predicted 'Area = pi * r * r' but expected ['Circle']"
+    }
+  },
+  {
+    "id": "524365710af24abb8fd77f51e4ea9284",
+    "task": "A wandering minstrel could make good use of this handheld percussion instrument heard here",
+    "category": "stable_success",
+    "prev": {
+      "hard": 1,
+      "soft": 1.0,
+      "predicted_answer": "tambourine",
+      "fail_reason": ""
+    },
+    "curr": {
+      "hard": 1,
+      "soft": 1.0,
+      "predicted_answer": "tambourine",
+      "fail_reason": ""
+    }
+  },
+  {
+    "id": "f58173d98a0249d69e284edc617c72ad",
+    "task": "The moon's farthest point from the Earth is referred to by this term",
+    "category": "stable_success",
+    "prev": {
+      "hard": 1,
+      "soft": 1.0,
+      "predicted_answer": "apogee",
+      "fail_reason": ""
+    },
+    "curr": {
+      "hard": 1,
+      "soft": 1.0,
+      "predicted_answer": "apogee",
+      "fail_reason": ""
+    }
+  },
+  {
+    "id": "3909c367f524402d8ba5ec2b520ba206",
+    "task": "She played Tina Turner on the big screen & Rosa Parks on TV",
+    "category": "persistent_fail",
+    "prev": {
+      "hard": 0,
+      "soft": 0.0,
+      "predicted_answer": "The Rosa Parks Story",
+      "fail_reason": "EM=0: predicted 'The Rosa Parks Story' but expected ['Angela Bassett']"
+    },
+    "curr": {
+      "hard": 0,
+      "soft": 0.0,
+      "predicted_answer": "The Rosa Parks Story",
+      "fail_reason": "EM=0: predicted 'The Rosa Parks Story' but expected ['Angela Bassett']"
+    }
+  },
+  {
+    "id": "b42aaf6fa0dd4d3195e8ae7e6ca33019",
+    "task": "As in 2004, in 1896 Panathenaic Stadium had the finish of this, won back then by national hero Spiridon Louis",
+    "category": "persistent_fail",
+    "prev": {
+      "hard": 0,
+      "soft": 0.6666666666666666,
+      "predicted_answer": "Men's Marathon",
+      "fail_reason": "EM=0: predicted 'Men's Marathon' but expected ['the marathon']"
+    },
+    "curr": {
+      "hard": 0,
+      "soft": 0.6666666666666666,
+      "predicted_answer": "Men's Marathon",
+      "fail_reason": "EM=0: predicted 'Men's Marathon' but expected ['the marathon']"
+    }
+  },
+  {
+    "id": "0d46f4a90ab6451486c755fbc4d2525b",
+    "task": "In the 1950s, if your button said, \"I Like Ike\", he was your man",
+    "category": "stable_success",
+    "prev": {
+      "hard": 1,
+      "soft": 1.0,
+      "predicted_answer": "Dwight D. Eisenhower",
+      "fail_reason": ""
+    },
+    "curr": {
+      "hard": 1,
+      "soft": 1.0,
+      "predicted_answer": "Dwight D. Eisenhower",
+      "fail_reason": ""
+    }
+  },
+  {
+    "id": "82823aae4a844d19ac0a56464dfe28c0",
+    "task": "This term for following a winding & turning course comes from a river in Phrygia noted for its windings",
+    "category": "persistent_fail",
+    "prev": {
+      "hard": 0,
+      "soft": 0.0,
+      "predicted_answer": "Maeander",
+      "fail_reason": "EM=0: predicted 'Maeander' but expected ['Meandering']"
+    },
+    "curr": {
+      "hard": 0,
+      "soft": 0.0,
+      "predicted_answer": "Maeander",
+      "fail_reason": "EM=0: predicted 'Maeander' but expected ['Meandering']"
+    }
+  }
+]

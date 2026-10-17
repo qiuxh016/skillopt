@@ -1,0 +1,6 @@
+{
+  "reasoning": "The performance shows a regression due to excessive brevity in entity extraction ('sails' -> 'sail') and consistent failure in matching exact specified formats across multiple cases. This suggests overemphasis on concise answers may incorrectly strip essential detail.",
+  "meta_skill_content": "Prioritize exact formatting and contextual specification when extracting names and entities. Avoid overly terse responses that neglect context-specific precision. Focus on maintaining required specificity in answers, especially avoiding truncations that lead to incorrect brevity. Ensure validation checks align with detailed formatting needs and previous successful strategies.",
+  "time_s": 8.3,
+  "action": "write_meta_skill"
+}

@@ -1,0 +1,10 @@
+{
+  "last_completed_step": 40,
+  "current_skill_path": "/root/autodl-tmp/skillOPT/baseline/SkillOpt-main/SkillOpt-main/outputs/skillopt_searchqa_Qwen2.5-32B-4bit-opt_Qwen2.5-7B-target_20261017_010359/skills/skill_v0040.md",
+  "current_score": 0.635,
+  "current_origin": "slow_update_epoch_04",
+  "best_skill_path": "/root/autodl-tmp/skillOPT/baseline/SkillOpt-main/SkillOpt-main/outputs/skillopt_searchqa_Qwen2.5-32B-4bit-opt_Qwen2.5-7B-target_20261017_010359/best_skill.md",
+  "best_score": 0.635,
+  "best_step": 20,
+  "best_origin": "step_0020"
+}

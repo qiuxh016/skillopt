@@ -1,0 +1,40 @@
+{
+  "source_run": "/root/autodl-tmp/skillOPT/baseline/SkillOpt-main/SkillOpt-main/outputs/skillopt_searchqa_Qwen2.5-7B-Instruct_20261016_174915",
+  "complete_run_output": "complete_run_output/",
+  "resolved_full_config": "complete_run_output/config.json",
+  "summary": "complete_run_output/summary.json",
+  "full_training_history": "complete_run_output/history.json",
+  "per_step_records": "complete_run_output/steps/",
+  "structured_log": "training_log.csv (derived from history.json)",
+  "skill_snapshots": "skill_snapshots/",
+  "models": {
+    "optimizer": {
+      "repo_id": "meta-llama/Meta-Llama-3-8B-Instruct",
+      "model_key": "Meta-Llama-3-8B-Instruct",
+      "local_path": "/root/autodl-tmp/skillOPT/Meta-Llama-3-8B-Instruct",
+      "snapshot_commit": "8afb486c1db24fe5011ec46dfbe5b5dccdb575c2",
+      "quantization": "none; BF16"
+    },
+    "target": {
+      "repo_id": "Qwen/Qwen2.5-7B-Instruct",
+      "model_key": "Qwen2.5-7B-Instruct",
+      "local_path": "/root/autodl-tmp/skillOPT/Qwen2.5-7B-Instruct",
+      "snapshot_commit": "a09a35458c702b33eeacc393d103063234e8bc28",
+      "quantization": "none; BF16"
+    }
+  },
+  "config_sha256": "1b54dcb72f356965195878c7e7803f8d024cd8d841b9f820613565aaa33aa466",
+  "history_sha256": "af11bc86578479860e138c4a5ce8f597e29152127fd44d485ebe3c7a4b269ba2",
+  "raw_stdout_available": false,
+  "log_note": "The original terminal stdout was not saved by the run. Full structured history, per-step records, trajectory digests, evaluation outputs and all run artifacts are preserved.",
+  "runtime_packages_from_skillopt_environment": {
+    "python": "3.11.17",
+    "torch": "2.5.1+cu124",
+    "torch_cuda": "12.4",
+    "transformers": "4.57.6",
+    "accelerate": "1.15.0",
+    "bitsandbytes": "0.50.2",
+    "skillopt_distribution": "0.2.0",
+    "run_report_version": "skillopt-0.1.0"
+  }
+}

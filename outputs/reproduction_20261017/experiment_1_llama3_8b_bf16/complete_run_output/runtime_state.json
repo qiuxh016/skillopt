@@ -1,0 +1,10 @@
+{
+  "last_completed_step": 40,
+  "current_skill_path": "/root/autodl-tmp/skillOPT/baseline/SkillOpt-main/SkillOpt-main/outputs/skillopt_searchqa_Qwen2.5-7B-Instruct_20261016_174915/skills/skill_v0040.md",
+  "current_score": 0.61,
+  "current_origin": "step_0013",
+  "best_skill_path": "/root/autodl-tmp/skillOPT/baseline/SkillOpt-main/SkillOpt-main/outputs/skillopt_searchqa_Qwen2.5-7B-Instruct_20261016_174915/best_skill.md",
+  "best_score": 0.61,
+  "best_step": 13,
+  "best_origin": "step_0013"
+}

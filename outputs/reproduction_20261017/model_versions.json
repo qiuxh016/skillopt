@@ -1,0 +1,262 @@
+{
+  "models": {
+    "Meta-Llama-3-8B-Instruct": {
+      "hf_repo_id": "meta-llama/Meta-Llama-3-8B-Instruct",
+      "local_path": "/root/autodl-tmp/skillOPT/Meta-Llama-3-8B-Instruct",
+      "hf_snapshot_commit": "8afb486c1db24fe5011ec46dfbe5b5dccdb575c2",
+      "quantization_for_experiment": "Run 1 optimizer BF16",
+      "model_config": {
+        "model_type": "llama",
+        "architectures": [
+          "LlamaForCausalLM"
+        ],
+        "torch_dtype": "bfloat16",
+        "transformers_version": "4.40.0.dev0",
+        "num_hidden_layers": 32,
+        "hidden_size": 4096,
+        "max_position_embeddings": 8192,
+        "num_attention_heads": 32,
+        "num_key_value_heads": 8
+      },
+      "weight_total_bytes": 16060522496,
+      "weight_shards": [
+        {
+          "file": "model-00001-of-00004.safetensors",
+          "bytes": 4976698672,
+          "lfs_sha256": "d8cf9c4d0dd972e1a2131bfe656235ee98221679711a3beef6d46dadf0f20b5c"
+        },
+        {
+          "file": "model-00002-of-00004.safetensors",
+          "bytes": 4999802720,
+          "lfs_sha256": "8d4782b4a69ef03845159ce1a15e272aadaaf134dc138d68f616098e8531729c"
+        },
+        {
+          "file": "model-00003-of-00004.safetensors",
+          "bytes": 4915916176,
+          "lfs_sha256": "3acdd690e65c24f42a24581b8467af98bd3ca357444580f8012aacd2bd607921"
+        },
+        {
+          "file": "model-00004-of-00004.safetensors",
+          "bytes": 1168138808,
+          "lfs_sha256": "67e9ad31c8c32abf3a55ee7fc7217b3ecb35fd3c74d98a5bd233e0e4d6964f46"
+        }
+      ],
+      "small_file_hashes": {
+        "config.json": {
+          "bytes": 654,
+          "sha256": "61f3de03a16ca8046b05dc777bce72717022bc8522152eee61a69072272ef54b"
+        },
+        "generation_config.json": {
+          "bytes": 187,
+          "sha256": "d1af74d8ba49428ab2faa65f7948165cc6bf52b740e57e840f8af772587c894c"
+        },
+        "tokenizer_config.json": {
+          "bytes": 50977,
+          "sha256": "da0e3a7cce6e4d787e85eb1c24d548420e0d7fe2c7a214e192795c46e40d75bb"
+        },
+        "model.safetensors.index.json": {
+          "bytes": 23950,
+          "sha256": "146776fce3f6db1103aa6f249e65ee5544c5923ce6f971b092eee79aa6e5d37b"
+        }
+      },
+      "note": "Weights remain at the local path; commit and available LFS hashes are captured from the Hugging Face cache metadata."
+    },
+    "Qwen2.5-32B-Instruct": {
+      "hf_repo_id": "Qwen/Qwen2.5-32B-Instruct",
+      "local_path": "/root/autodl-tmp/skillOPT/Qwen2.5-32B-Instruct",
+      "hf_snapshot_commit": "5ede1c97bbab6ce5cda5812749b4c0bdf79b18dd",
+      "quantization_for_experiment": "Run 2 optimizer NF4 4-bit, BF16 compute, double quant",
+      "model_config": {
+        "model_type": "qwen2",
+        "architectures": [
+          "Qwen2ForCausalLM"
+        ],
+        "torch_dtype": "bfloat16",
+        "transformers_version": "4.43.1",
+        "num_hidden_layers": 64,
+        "hidden_size": 5120,
+        "max_position_embeddings": 32768,
+        "num_attention_heads": 40,
+        "num_key_value_heads": 8
+      },
+      "weight_total_bytes": 65527752704,
+      "weight_shards": [
+        {
+          "file": "model-00001-of-00017.safetensors",
+          "bytes": 3916539832,
+          "lfs_sha256": "fa006a0382517a4e9a8781d8e7d3405cd6bdd1b9100fb344d73f925b7da9341c"
+        },
+        {
+          "file": "model-00002-of-00017.safetensors",
+          "bytes": 3900847496,
+          "lfs_sha256": "0d7f28a4ba7135c2c8365016170cfa25723f65ec41e32ec9a3c81746e4395615"
+        },
+        {
+          "file": "model-00003-of-00017.safetensors",
+          "bytes": 3900847480,
+          "lfs_sha256": "8f4b7b811a7ecf117c179ac9413b7a746f2fc0707a41ae4b2efd0282e73bed85"
+        },
+        {
+          "file": "model-00004-of-00017.safetensors",
+          "bytes": 3900847544,
+          "lfs_sha256": "de8ab9cb81e6798031d2cf9ef6d15a0034b77fceeba3d4e011647943c8b99afb"
+        },
+        {
+          "file": "model-00005-of-00017.safetensors",
+          "bytes": 3900847544,
+          "lfs_sha256": "fa86494f0074cc36c610aa54e7bde03edefc57a9be7636216277bd5ed8b8bfda"
+        },
+        {
+          "file": "model-00006-of-00017.safetensors",
+          "bytes": 3900847544,
+          "lfs_sha256": "c8fa152bd8a23bab2c0cfca43ff9f586bccd82b1cb67f2f84231f31d0f3cab47"
+        },
+        {
+          "file": "model-00007-of-00017.safetensors",
+          "bytes": 3900847544,
+          "lfs_sha256": "5e33e16319d18d1e180187d9f858deddbbaf06d950abc88941bf027d1439c7bc"
+        },
+        {
+          "file": "model-00008-of-00017.safetensors",
+          "bytes": 3900847544,
+          "lfs_sha256": "8561b86737884397772bb990b38c0efe896f66ed27815ca207ddc8ec7965ffe4"
+        },
+        {
+          "file": "model-00009-of-00017.safetensors",
+          "bytes": 3900847544,
+          "lfs_sha256": "47f562bf77d986b53c5390b01a30a77576c3eed69191b484cf88b53bb64bce19"
+        },
+        {
+          "file": "model-00010-of-00017.safetensors",
+          "bytes": 3900847544,
+          "lfs_sha256": "359450e2c9e261751b5803fcdd1d0a040029a6119a271dd8592d7bb37fa722b5"
+        },
+        {
+          "file": "model-00011-of-00017.safetensors",
+          "bytes": 3900847544,
+          "lfs_sha256": "836f0570f5694ce1d55f505064190e2688926dad4f033384ae519d96faaad670"
+        },
+        {
+          "file": "model-00012-of-00017.safetensors",
+          "bytes": 3900847544,
+          "lfs_sha256": "5307431e385a177375a5aa887eb1c546f3413dd2e2269c291672f11f752842b4"
+        },
+        {
+          "file": "model-00013-of-00017.safetensors",
+          "bytes": 3900847544,
+          "lfs_sha256": "9b2657db02572dd4370186b35c0e0fa70218d7e2ec1190e4dc4a755c5cbd430e"
+        },
+        {
+          "file": "model-00014-of-00017.safetensors",
+          "bytes": 3900847544,
+          "lfs_sha256": "b5f1f8af3b6bbf734790985590752fb815dd69566cf05ee578d70af74ace1d4c"
+        },
+        {
+          "file": "model-00015-of-00017.safetensors",
+          "bytes": 3900847544,
+          "lfs_sha256": "8cdfcbf8913e10056c981db2db817f92c8601998deb9eabcae14fade98d76c14"
+        },
+        {
+          "file": "model-00016-of-00017.safetensors",
+          "bytes": 3900847544,
+          "lfs_sha256": "977b3d2ca7f97dc3b518ed5087ddc43ccf7afb371190828f2334d7e4c81224ee"
+        },
+        {
+          "file": "model-00017-of-00017.safetensors",
+          "bytes": 3098588976,
+          "lfs_sha256": "2853695483f9c61a8bd8b109025b3c591214a0362992fa844537f09acc81bd03"
+        }
+      ],
+      "small_file_hashes": {
+        "config.json": {
+          "bytes": 663,
+          "sha256": "9c6772f138ef9e5b3d1c18f2c87e451bbc01f5f1a4eabb36f9bf4f53829b903e"
+        },
+        "generation_config.json": {
+          "bytes": 242,
+          "sha256": "ea35dfb6fc5051b01114f9b995820d55dab01ed33ee490f6378b442af82c09f9"
+        },
+        "tokenizer_config.json": {
+          "bytes": 7305,
+          "sha256": "5b5d4f65d0acd3b2d56a35b56d374a36cbc1c8fa5cf3b3febbbfabf22f359583"
+        },
+        "model.safetensors.index.json": {
+          "bytes": 63248,
+          "sha256": "0183543f2e6e40d3d1e863ed0b2a8c9cdaf2ee4045ce724a45cea30e9995a0af"
+        }
+      },
+      "note": "Weights remain at the local path; commit and available LFS hashes are captured from the Hugging Face cache metadata."
+    },
+    "Qwen2.5-7B-Instruct": {
+      "hf_repo_id": "Qwen/Qwen2.5-7B-Instruct",
+      "local_path": "/root/autodl-tmp/skillOPT/Qwen2.5-7B-Instruct",
+      "hf_snapshot_commit": "a09a35458c702b33eeacc393d103063234e8bc28",
+      "quantization_for_experiment": "Target BF16 in both runs",
+      "model_config": {
+        "model_type": "qwen2",
+        "architectures": [
+          "Qwen2ForCausalLM"
+        ],
+        "torch_dtype": "bfloat16",
+        "transformers_version": "4.43.1",
+        "num_hidden_layers": 28,
+        "hidden_size": 3584,
+        "max_position_embeddings": 32768,
+        "num_attention_heads": 28,
+        "num_key_value_heads": 4
+      },
+      "weight_total_bytes": 15231233024,
+      "weight_shards": [
+        {
+          "file": "model-00001-of-00004.safetensors",
+          "bytes": 3945441440,
+          "lfs_sha256": "a1333e6293854747c481288ea83b348226af178dd565c49b6f9495ba1966aba7"
+        },
+        {
+          "file": "model-00002-of-00004.safetensors",
+          "bytes": 3864726352,
+          "lfs_sha256": "f5d25a2772cb825164a2a2c0fb6d51a87e282abf21e4dd75bc5cfb3cd0ea6185"
+        },
+        {
+          "file": "model-00003-of-00004.safetensors",
+          "bytes": 3864726424,
+          "lfs_sha256": "8efdec4c1bc12317ae1a38dc42b595ce777738a64deea3fcb8a0a91381bcdfd5"
+        },
+        {
+          "file": "model-00004-of-00004.safetensors",
+          "bytes": 3556377672,
+          "lfs_sha256": "1a72d403cdf0c1ec3cb7f289f17b394a01e64394c2e9b3c0f94dbce3faf879bd"
+        }
+      ],
+      "small_file_hashes": {
+        "config.json": {
+          "bytes": 663,
+          "sha256": "7463bb0ea78315365e6c6b74de4e73bbcc8359dfb0c5a737584e077d42c0b03c"
+        },
+        "generation_config.json": {
+          "bytes": 243,
+          "sha256": "3a8f9087e486054c8a4a08dae2e5a3ba62e23da212b5b8c08bc42cb983c3459f"
+        },
+        "tokenizer_config.json": {
+          "bytes": 7305,
+          "sha256": "5b5d4f65d0acd3b2d56a35b56d374a36cbc1c8fa5cf3b3febbbfabf22f359583"
+        },
+        "model.safetensors.index.json": {
+          "bytes": 27752,
+          "sha256": "624bf7c47cd12468fdc16e38a47cf4f19e0415b859a223ba3c027eed2f0e1028"
+        }
+      },
+      "note": "Weights remain at the local path; commit and available LFS hashes are captured from the Hugging Face cache metadata."
+    }
+  },
+  "runtime_packages_from_skillopt_environment": {
+    "python": "3.11.17",
+    "torch": "2.5.1+cu124",
+    "torch_cuda": "12.4",
+    "transformers": "4.57.6",
+    "accelerate": "1.15.0",
+    "bitsandbytes": "0.50.2",
+    "skillopt_distribution": "0.2.0",
+    "run_report_version": "skillopt-0.1.0"
+  }
+}
