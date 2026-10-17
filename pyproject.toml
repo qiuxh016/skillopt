@@ -43,8 +43,8 @@ qwen = ["vllm>=0.4.0", "json_repair>=0.61.0"]
 # SearchQA data materialization
 searchqa = ["datasets>=2.18.0,<5"]
 # Direct local Hugging Face model loading (install the CUDA-matched PyTorch wheel separately first)
-transformers-local = ["transformers>=4.45,<5", "accelerate>=0.34"]
-transformers-local-4bit = ["transformers>=4.45,<5", "accelerate>=0.34", "bitsandbytes>=0.45,<1"]
+transformers-local = ["transformers>=4.45,<6", "accelerate>=0.34"]
+transformers-local-4bit = ["transformers>=4.45,<6", "accelerate>=0.34", "bitsandbytes>=0.45,<1"]
 # Documentation site
 docs = ["mkdocs-material>=9.5.0", "mkdocstrings[python]>=0.24.0"]
 # WebUI dashboard
